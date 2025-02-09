@@ -1,4 +1,4 @@
-public class UnsynchronizedState {
+public class UnsynchronizedState implements State {
     private long[] value;
 
     UnsynchronizedState(int length) { value = new long[length]; }
