@@ -20,8 +20,8 @@ class UnsafeMemory {
 				s = new SynchronizedState(nValues);
 			else if (args[1].equals("Unsynchronized"))
 				s = new UnsynchronizedState(nValues);
-			else if (args[1].equals("AcmeSafe"))
-				s = new AcmeSafeState(nValues);
+			// else if (args[1].equals("AcmeSafe"))
+				// s = new AcmeSafeState(nValues);
 			else
 			throw new Exception(args[2]);
 
